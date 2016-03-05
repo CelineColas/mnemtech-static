@@ -1,0 +1,1433 @@
+/*
+Theme: Flatfy Theme
+Author: Andrea Galanti
+Bootstrap Version 
+Build: 1.0
+http://www.andreagalanti.it
+*/
+/*General */
+/* line 11, ../../sass/base/general.scss */
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* line 17, ../../sass/base/general.scss */
+::-moz-selection {
+  background: #1abc9c;
+  color: white;
+}
+
+/* line 19, ../../sass/base/general.scss */
+::selection {
+  background: #1abc9c;
+  color: white;
+}
+
+/* line 21, ../../sass/base/general.scss */
+.abcen {
+  position: absolute;
+  bottom: 8%;
+}
+
+/* line 23, ../../sass/base/general.scss */
+.abcen1 {
+  position: absolute;
+  top: 20%;
+}
+
+/* line 25, ../../sass/base/general.scss */
+.content-section-c {
+  border-top: 1px solid #32465A;
+  border-bottom: 1px solid #32465A;
+  background-color: #34495e;
+  padding: 90px 0;
+}
+
+/* line 32, ../../sass/base/general.scss */
+.descp {
+  margin: 0;
+  padding: 0;
+  line-height: 40px !important;
+}
+
+/* line 38, ../../sass/base/general.scss */
+.glyphicon {
+  margin-right: 10px;
+}
+
+/* line 42, ../../sass/base/general.scss */
+.lead2 {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.46428571;
+  font-weight: 300;
+}
+
+/* line 50, ../../sass/base/general.scss */
+.lead3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 16px;
+  color: #8D8D8D;
+  line-height: 1.46428571;
+  font-weight: 300;
+}
+
+/* line 59, ../../sass/base/general.scss */
+.float {
+  -webkit-animation-name: floatingx;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-name: floating;
+  -moz-animation-duration: 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out;
+}
+
+/* line 70, ../../sass/base/general.scss */
+.phone-image {
+  max-width: 250px;
+  margin: auto;
+}
+
+/* line 75, ../../sass/base/general.scss */
+.h1_home {
+  font-size: 80px;
+  font-family: arvo;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+
+/* line 82, ../../sass/base/general.scss */
+.h3_home {
+  font-weight: 300;
+}
+
+/*own carousel */
+/* line 86, ../../sass/base/general.scss */
+#owl-demo .item {
+  margin: 3px;
+}
+
+/* line 89, ../../sass/base/general.scss */
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 95, ../../sass/base/general.scss */
+#owl-demo-1 .item {
+  margin: 3px;
+}
+
+/* line 98, ../../sass/base/general.scss */
+#owl-demo-1 .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*magnific */
+/* line 105, ../../sass/base/general.scss */
+.mfp-bg {
+  background: #000000 !important;
+  opacity: 0.95 !important;
+  filter: alpha(opacity=95) !important;
+}
+
+/* line 111, ../../sass/base/general.scss */
+.item .img-responsive {
+  cursor: url(../img/cross.png), auto;
+}
+
+/* Preloader */
+/* line 114, ../../sass/base/general.scss */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+/* line 124, ../../sass/base/general.scss */
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(../img/status.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+
+/* Button */
+/* line 138, ../../sass/base/general.scss */
+.mybutton_standard {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* line 143, ../../sass/base/general.scss */
+.mybutton_cyano {
+  border: 1px solid #4A90BE;
+  color: #fff;
+  background-color: #4A90BE;
+}
+
+/* line 149, ../../sass/base/general.scss */
+.mybutton_cyano:hover {
+  border: 1px solid #4A90BE;
+  color: #4A90BE !important;
+  background: rgba(204, 204, 204, 0);
+}
+
+/* line 155, ../../sass/base/general.scss */
+.button_down img {
+  width: 50px;
+}
+
+/* line 159, ../../sass/base/general.scss */
+.btn-primary {
+  border-color: rgba(52, 73, 94, 0);
+}
+
+/* line 163, ../../sass/base/general.scss */
+.tworow {
+  margin-top: 90px;
+}
+
+/* line 165, ../../sass/base/general.scss */
+.social {
+  font-size: 30px;
+  text-decoration: none;
+  list-style-type: none;
+  color: #1abc9c;
+}
+
+/* line 172, ../../sass/base/general.scss */
+.social > a:hover {
+  color: #1abc9c;
+}
+
+/* line 176, ../../sass/base/general.scss */
+.box-icon {
+  height: 150px;
+  width: 150px;
+  -moz-border-radius: 35px;
+  border-radius: 100%;
+  padding: 47px 10px;
+  background-color: #f0f1ec;
+  color: #034b81;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-right: 15px;
+}
+
+/* line 191, ../../sass/base/general.scss */
+.box-icon:hover {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+/* line 196, ../../sass/base/general.scss */
+.owl-theme .owl-controls .owl-page span {
+  background: #1abc9c !important;
+}
+
+/* Nav */
+/* line 201, ../../sass/base/general.scss */
+.navbar {
+  position: relative;
+  min-height: 60px;
+  margin-bottom: 0;
+  width: 100%;
+  z-index: 999;
+  border-radius: 0;
+}
+
+/* line 210, ../../sass/base/general.scss */
+.navbar-default {
+  position: relative;
+  min-height: 60px;
+  width: 100%;
+  z-index: 999;
+}
+
+/* line 218, ../../sass/base/general.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+/* line 222, ../../sass/base/general.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ECEBEB;
+}
+
+/* line 226, ../../sass/base/general.scss */
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+/* line 229, ../../sass/base/general.scss */
+.navbar-default .navbar-brand:hover {
+  color: #ECEBEB;
+}
+
+/* line 233, ../../sass/base/general.scss */
+.navbar-brand {
+  font-family: arvo;
+  letter-spacing: 3px;
+  font-weight: 400 !important;
+}
+
+/* line 239, ../../sass/base/general.scss */
+.lead {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 244, ../../sass/base/general.scss */
+.intro-header {
+  height: 100%;
+  /* Full PAge */
+  padding-top: 50px;
+  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 50px;
+  color: #f8f8f8;
+  background: url(../img/intro/intro5.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+/* line 254, ../../sass/base/general.scss */
+.intro-message {
+  position: relative;
+  padding-top: 12%;
+  padding-bottom: 20%;
+}
+
+/* line 260, ../../sass/base/general.scss */
+.list-inline {
+  margin-top: 30px;
+}
+
+/* line 263, ../../sass/base/general.scss */
+.intro-message > h1 {
+  margin: 0;
+  font-size: 5em;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+/* line 271, ../../sass/base/general.scss */
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 277, ../../sass/base/general.scss */
+.intro-message > h3 {
+  margin: 0;
+  font-size: 2.8em;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0px;
+  margin-top: 10px;
+}
+
+/* line 287, ../../sass/base/general.scss */
+.network-name {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+/* line 293, ../../sass/base/general.scss */
+.content-section-a {
+  background-color: #f8f8f8;
+  padding: 90px 0;
+}
+
+/* line 298, ../../sass/base/general.scss */
+.content-section-b {
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 90px 0;
+}
+
+/* line 304, ../../sass/base/general.scss */
+.section-heading {
+  margin-bottom: 30px;
+}
+
+/* line 308, ../../sass/base/general.scss */
+.section-heading-spacer {
+  border-top: 3px solid #e7e7e7;
+  width: 200px;
+  float: left;
+}
+
+/* line 314, ../../sass/base/general.scss */
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/intro/banner-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/* Animate */
+/* line 322, ../../sass/base/general.scss */
+.rotate {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  overflow: hidden;
+}
+
+/* line 337, ../../sass/base/general.scss */
+.rotate:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+/* Style for form modal */
+/* line 347, ../../sass/base/general.scss */
+.content-style-form {
+  position: relative;
+  text-align: left;
+}
+
+/* line 352, ../../sass/base/general.scss */
+.content-style-form h2 {
+  margin: 0;
+  padding: 0.4em 0 0.3em;
+  text-align: center;
+  font-weight: 300;
+  font-size: 3.5em;
+}
+
+/* line 360, ../../sass/base/general.scss */
+.content-style-form form {
+  padding: 10px 30px;
+}
+
+/* line 364, ../../sass/base/general.scss */
+.content-style-form form p {
+  margin: 0 0 5px 0;
+  font-size: 0.7em;
+}
+
+/* line 369, ../../sass/base/general.scss */
+.content-style-form label {
+  display: block;
+  padding: 10px 0 0;
+  color: #34495e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/* line 378, ../../sass/base/general.scss */
+.content-style-form input[type="text"],
+.content-style-form input[type="password"] {
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #ebd3bd;
+  background: transparent;
+  color: #b09a86;
+  font-weight: 300;
+  font-size: 2.2em;
+}
+
+/* line 389, ../../sass/base/general.scss */
+.content-style-form input[type="text"]:focus,
+.content-style-form input[type="password"]:focus {
+  border-color: #e75854;
+  color: #e75854;
+}
+
+/* line 395, ../../sass/base/general.scss */
+.content-style-form input:focus {
+  outline: 0;
+}
+
+/* line 399, ../../sass/base/general.scss */
+.content-style-form button {
+  display: block;
+  margin-top: 2.5em;
+  padding: 1.5em;
+  width: 100%;
+  border: none;
+  background: #e75854;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 800;
+  font-size: 1.25em;
+}
+
+/* line 413, ../../sass/base/general.scss */
+.content-style-form .icon-close {
+  top: 0;
+  right: 0;
+  color: #ebd3bd;
+  font-size: 75%;
+}
+
+/* line 420, ../../sass/base/general.scss */
+.content-style-form .icon-close:hover {
+  color: #e75854;
+}
+
+/* line 424, ../../sass/base/general.scss */
+.js .content-style-form-1 h2,
+.js .content-style-form-1 p,
+.js .content-style-form-1 .icon-close {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s 0.35s, -webkit-transform 0.2s 0.35s;
+  transition: opacity 0.2s 0.35s, transform 0.2s 0.35s;
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+/* line 434, ../../sass/base/general.scss */
+.content-style-form-1 p:first-child {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+/* line 439, ../../sass/base/general.scss */
+.content-style-form-1 p:nth-child(2) {
+  -webkit-transition-delay: 0.45s;
+  transition-delay: 0.45s;
+}
+
+/* line 444, ../../sass/base/general.scss */
+.content-style-form-1 p:nth-child(3) {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+/* line 449, ../../sass/base/general.scss */
+.morph-button.open .content-style-form-1 h2,
+.morph-button.open .content-style-form-1 p,
+.morph-button.open .content-style-form-1 .icon-close {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 457, ../../sass/base/general.scss */
+.js .content-style-form-2 h2,
+.js .content-style-form-2 p,
+.js .content-style-form-2 .icon-close {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s 0.3s, -webkit-transform 0.2s 0.3s;
+  transition: opacity 0.2s 0.3s, transform 0.2s 0.3s;
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+}
+
+/* line 467, ../../sass/base/general.scss */
+.content-style-form-2 p:first-child {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+
+/* line 472, ../../sass/base/general.scss */
+.content-style-form-2 p:nth-child(2) {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+/* line 477, ../../sass/base/general.scss */
+.content-style-form-2 p:nth-child(3) {
+  -webkit-transition-delay: 0.45s;
+  transition-delay: 0.45s;
+}
+
+/* line 482, ../../sass/base/general.scss */
+.content-style-form-2 p:nth-child(4) {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+/* line 487, ../../sass/base/general.scss */
+.morph-button.open .content-style-form-2 h2,
+.morph-button.open .content-style-form-2 p,
+.morph-button.open .content-style-form-2 .icon-close {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* line 495, ../../sass/base/general.scss */
+.content-style-form-4 form {
+  padding: 30px;
+  background: #fff;
+  color: #ccb096;
+  font-size: 1.5em;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+/* line 504, ../../sass/base/general.scss */
+.content-style-form-4 input[type="text"] {
+  border: none;
+  background-color: #f0f0f0;
+}
+
+/* line 509, ../../sass/base/general.scss */
+.content-style-form-4 form button {
+  background: #34495e;
+}
+
+/* line 513, ../../sass/base/general.scss */
+.content-style-form-4 form button:focus,
+.content-style-form-4 form button:hover {
+  background: #1abc9c;
+}
+
+/* line 518, ../../sass/base/general.scss */
+.js .content-style-form-4 p {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: rotateX(-45deg);
+  transform: rotateX(-45deg);
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+}
+
+/* line 528, ../../sass/base/general.scss */
+.morph-button.open .content-style-form-4 p {
+  opacity: 1;
+  -webkit-transition: opacity 0.4s 0.2s, -webkit-transform 0.4s 0.2s;
+  transition: opacity 0.4s 0.2s, transform 0.4s 0.2s;
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+/* line 536, ../../sass/base/general.scss */
+.morph-button.open .content-style-form-4 p:nth-child(2) {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+
+/* line 541, ../../sass/base/general.scss */
+.content-style-social {
+  padding: 30px;
+  text-align: left;
+}
+
+/* line 546, ../../sass/base/general.scss */
+.morph-button-inflow-2 > button svg {
+  display: inline-block;
+  padding-right: 10px;
+  width: 20px;
+  height: 20px;
+  vertical-align: -5%;
+}
+
+/* line 554, ../../sass/base/general.scss */
+.morph-button-inflow-2 > button svg path {
+  fill: #e75854;
+}
+
+/* line 558, ../../sass/base/general.scss */
+.content-style-social a {
+  display: block;
+  padding: 0.5em 0;
+  color: #67c2d4;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 0.8em;
+  line-height: 32px;
+}
+
+/* line 570, ../../sass/base/general.scss */
+.js .content-style-social a {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+/* line 577, ../../sass/base/general.scss */
+.content-style-social a:hover {
+  color: #e75854;
+}
+
+/* line 581, ../../sass/base/general.scss */
+.content-style-social a:hover svg path {
+  fill: #e75854;
+}
+
+/* line 585, ../../sass/base/general.scss */
+.content-style-social a svg {
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 592, ../../sass/base/general.scss */
+.morph-button-inflow.open .content-style-social a {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/* line 597, ../../sass/base/general.scss */
+.morph-button-inflow.open .content-style-social a:nth-child(2) {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+/* line 602, ../../sass/base/general.scss */
+.morph-button-inflow.open .content-style-social a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+/* Morph Button: Default Styles */
+/* line 609, ../../sass/base/general.scss */
+.morph-button {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 615, ../../sass/base/general.scss */
+.morph-button > button {
+  position: relative;
+  padding: 0 1em;
+  border: none;
+  background-color: #e85657;
+  color: #f9f6e5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 80px;
+  overflow: hidden;
+}
+
+/* line 628, ../../sass/base/general.scss */
+.morph-button.open > button {
+  pointer-events: none;
+}
+
+/* line 632, ../../sass/base/general.scss */
+.morph-content {
+  pointer-events: none;
+}
+
+/* line 636, ../../sass/base/general.scss */
+.morph-button.open .morph-content {
+  pointer-events: auto;
+}
+
+/* Common styles for overlay and modal type (fixed morph) */
+/* line 641, ../../sass/base/general.scss */
+.morph-button-fixed,
+.morph-button-fixed .morph-content {
+  width: 300px;
+  height: 80px;
+}
+
+/* line 647, ../../sass/base/general.scss */
+.morph-button-fixed > button {
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 0.1s 0.5s;
+  transition: opacity 0.1s 0.5s;
+}
+
+/* line 655, ../../sass/base/general.scss */
+.morph-button-fixed.open > button {
+  opacity: 0;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+
+/* line 661, ../../sass/base/general.scss */
+.morph-button-fixed .morph-content {
+  position: fixed;
+  z-index: 900;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+  transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+/* line 669, ../../sass/base/general.scss */
+.morph-button-fixed.open .morph-content {
+  opacity: 1;
+}
+
+/* line 673, ../../sass/base/general.scss */
+.morph-button-fixed .morph-content > div {
+  visibility: hidden;
+  height: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.1s, visibility 0s 0.1s, height 0s 0.1s;
+  transition: opacity 0.1s, visibility 0s 0.1s, height 0s 0.1s;
+}
+
+/* line 681, ../../sass/base/general.scss */
+.morph-button-fixed.open .morph-content > div {
+  visibility: visible;
+  height: auto;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s 0.5s;
+  transition: opacity 0.3s 0.5s;
+}
+
+/* line 689, ../../sass/base/general.scss */
+.morph-button-fixed.active > button {
+  z-index: 2000;
+}
+
+/* line 693, ../../sass/base/general.scss */
+.morph-button-fixed.active .morph-content {
+  z-index: 1900;
+}
+
+/* Transitions for overlay button and sidebar button */
+/* line 698, ../../sass/base/general.scss */
+.morph-button-overlay .morph-content,
+.morph-button-sidebar .morph-content {
+  -webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+  transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+}
+
+/* line 704, ../../sass/base/general.scss */
+.morph-button-overlay.open .morph-content,
+.morph-button-sidebar.open .morph-content {
+  -webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+  transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+}
+
+/* Morph Button Style: Overlay */
+/* line 711, ../../sass/base/general.scss */
+.morph-button.morph-button-overlay {
+  margin: 50px auto;
+}
+
+/* line 715, ../../sass/base/general.scss */
+.morph-button-overlay .morph-content {
+  overflow: hidden;
+  background: #e85657;
+}
+
+/* line 720, ../../sass/base/general.scss */
+.morph-button-overlay.open .morph-content {
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+
+/* Morph Button Style: Modal */
+/* line 728, ../../sass/base/general.scss */
+.morph-button-modal::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 800;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+
+/* line 743, ../../sass/base/general.scss */
+.morph-button-modal.open::before {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* line 748, ../../sass/base/general.scss */
+.morph-button-modal.active::before {
+  z-index: 1800;
+}
+
+/* line 752, ../../sass/base/general.scss */
+.morph-button-modal .morph-content {
+  overflow: hidden;
+  -webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+  transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+/* line 758, ../../sass/base/general.scss */
+.morph-button-modal.open .morph-content {
+  top: 50% !important;
+  left: 50% !important;
+  margin: -210px 0 0 -300px;
+  width: 600px;
+  height: 420px;
+  -webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+  transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+/* Colors and sizes for individual modals */
+/* line 769, ../../sass/base/general.scss */
+.morph-button.morph-button-modal-1 {
+  float: left;
+}
+
+/* line 773, ../../sass/base/general.scss */
+.morph-button.morph-button-modal-2,
+.morph-button.morph-button-modal-3 {
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+/* line 779, ../../sass/base/general.scss */
+.morph-button-modal-1 > button,
+.morph-button-modal-1 .morph-content {
+  background-color: #553445;
+}
+
+/* line 784, ../../sass/base/general.scss */
+.morph-button-modal-2 > button,
+.morph-button-modal-2 .morph-content,
+.morph-button-modal-3 > button,
+.morph-button-modal-3 .morph-content {
+  background-color: #fef0e3;
+  color: #e75854;
+}
+
+/* line 792, ../../sass/base/general.scss */
+.morph-button-modal-4 {
+  display: inline-block;
+}
+
+/* line 796, ../../sass/base/general.scss */
+.morph-button-modal-4 > button,
+.morph-button-modal-4 .morph-content {
+  background-color: #faf1e0;
+  color: #553445;
+}
+
+/* line 802, ../../sass/base/general.scss */
+.morph-button-modal-4 > button span,
+.morph-button-modal-4 .morph-clone {
+  padding-left: 10px;
+  color: #286f81;
+}
+
+/* line 808, ../../sass/base/general.scss */
+.morph-button-modal-4 .morph-clone {
+  position: absolute;
+  right: 34px;
+  bottom: 30px;
+  z-index: 100;
+  letter-spacing: 1px;
+  font-weight: 700;
+  -webkit-transition: bottom 0.4s 0.1s, right 0.4s 0.1s;
+  transition: bottom 0.4s 0.1s, right 0.4s 0.1s;
+}
+
+/* line 819, ../../sass/base/general.scss */
+.morph-button-modal-4.open .morph-clone,
+.no-js .morph-button-modal-4 .morph-clone {
+  right: 10px;
+  bottom: 10px;
+}
+
+/* line 825, ../../sass/base/general.scss */
+.morph-button-modal-1::before {
+  background: rgba(240, 221, 204, 0.7);
+}
+
+/* line 829, ../../sass/base/general.scss */
+.morph-button-modal-2.open .morph-content {
+  margin: -210px 0 0 -170px;
+  width: 340px;
+  height: 420px;
+}
+
+/* line 835, ../../sass/base/general.scss */
+.morph-button-modal-3.open .morph-content {
+  margin: -255px 0 0 -210px;
+  width: 420px;
+  height: 510px;
+}
+
+/* line 841, ../../sass/base/general.scss */
+.morph-button-modal-3.open .morph-content > div {
+  height: 420px;
+}
+
+/* line 845, ../../sass/base/general.scss */
+.morph-button-modal-2.open .morph-content > div,
+.morph-button-modal-3.open .morph-content > div {
+  -webkit-transition: opacity 0.3s 0.3s;
+  transition: opacity 0.3s 0.3s;
+}
+
+/* line 851, ../../sass/base/general.scss */
+.morph-button-modal-4.open .morph-content {
+  margin: -200px 0 0 -320px;
+  width: 640px;
+  height: 400px;
+}
+
+/* Morph Button Style: In the content flow */
+/* line 858, ../../sass/base/general.scss */
+.morph-button-inflow {
+  overflow: hidden;
+  max-width: 100%;
+  height: 70px;
+}
+
+/* line 864, ../../sass/base/general.scss */
+.morph-button-inflow > button {
+  width: 100%;
+  line-height: 70px;
+}
+
+/* line 869, ../../sass/base/general.scss */
+.morph-button-inflow .morph-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 876, ../../sass/base/general.scss */
+.morph-button-inflow .morph-content .morph-clone {
+  padding: 0;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 70px;
+}
+
+/* Colors and sizes for individual in flow buttons */
+/* line 884, ../../sass/base/general.scss */
+.morph-button-inflow-1 {
+  width: 600px;
+  margin: 2em auto;
+  -webkit-transition: height 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  transition: height 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+/* line 891, ../../sass/base/general.scss */
+.morph-button-inflow-1 > button span {
+  visibility: hidden;
+}
+
+/* line 895, ../../sass/base/general.scss */
+.morph-button-inflow-1 .morph-content .morph-clone {
+  color: #FFFFFF;
+  background: #1abc9c;
+}
+
+/* line 900, ../../sass/base/general.scss */
+.morph-button-inflow-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 220px;
+  background-color: #fef0e3;
+  -webkit-transition: height 0.3s, width 0.3s, -webkit-transform 0.3s;
+  transition: height 0.3s, width 0.3s, transform 0.3s;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* line 912, ../../sass/base/general.scss */
+.morph-button-inflow-2 > button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #e75854;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+/* line 924, ../../sass/base/general.scss */
+.morph-button-inflow-2.open > button {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+/* line 929, ../../sass/base/general.scss */
+.morph-button-inflow-2 .morph-content {
+  width: 260px;
+  height: 200px;
+}
+
+/* line 934, ../../sass/base/general.scss */
+.morph-button-inflow-2.open {
+  width: 260px;
+}
+
+/* Morph Button Style: Sidebar */
+/* line 939, ../../sass/base/general.scss */
+.morph-button-sidebar,
+.morph-button-sidebar .morph-content {
+  width: 60px;
+  height: 60px;
+}
+
+/* line 945, ../../sass/base/general.scss */
+.morph-button-sidebar {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+}
+
+/* line 951, ../../sass/base/general.scss */
+.morph-button-sidebar > button {
+  line-height: 60px;
+  font-size: 1.6em;
+  padding: 0;
+}
+
+/* line 957, ../../sass/base/general.scss */
+.morph-button-sidebar .morph-content {
+  background: #e85657;
+}
+
+/* line 961, ../../sass/base/general.scss */
+.morph-button-sidebar.open .morph-content {
+  top: 0 !important;
+  left: 0 !important;
+  width: 300px;
+  height: 100%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Let's add some nice easing for all cases */
+/* line 971, ../../sass/base/general.scss */
+.morph-button .morph-content,
+.morph-button.open .morph-content,
+.morph-button-modal-4 .morph-clone {
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+/* Helper classes */
+/* line 979, ../../sass/base/general.scss */
+.noscroll {
+  overflow: hidden;
+}
+
+/* line 983, ../../sass/base/general.scss */
+.morph-button-overlay.scroll .morph-content {
+  overflow-y: scroll;
+}
+
+/* line 987, ../../sass/base/general.scss */
+.morph-button-sidebar.scroll .morph-content {
+  overflow: auto;
+}
+
+/* No JS fallback: let's hide the button and show the content */
+/* line 992, ../../sass/base/general.scss */
+.no-js .morph-button > button {
+  display: none;
+}
+
+/* line 996, ../../sass/base/general.scss */
+.no-js .morph-button {
+  margin: 10px 0;
+  float: none;
+}
+
+/* line 1001, ../../sass/base/general.scss */
+.no-js .morph-button,
+.no-js .morph-button .morph-content,
+.no-js .morph-button .morph-content > div {
+  position: relative;
+  width: auto;
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+  top: auto;
+  left: auto;
+  -webkit-transform: none;
+  transform: none;
+  pointer-events: auto;
+}
+
+/* line 1016, ../../sass/base/general.scss */
+.no-js .morph-button .morph-content .icon-close {
+  display: none;
+}
+
+/* line 1020, ../../sass/base/general.scss */
+.no-js .morph-button-sidebar {
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100%;
+  background: #e85657;
+  overflow: auto;
+}
+
+/* line 1031, ../../sass/base/general.scss */
+.no-transition {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+/* Media Queries */
+/* Media queries!
+-------------------------------------------------------------------------------*/
+/* 960 Screens */
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 1050, ../../sass/base/general.scss */
+  h1, .h1 {
+    font-size: 50px;
+  }
+
+  /* line 1054, ../../sass/base/general.scss */
+  h3, .h3 {
+    font-size: 20px;
+  }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  /* line 1063, ../../sass/base/general.scss */
+  .intro-header {
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #f8f8f8;
+    background-image: none;
+    background-size: cover;
+    text-align: center;
+    background-color: #34495e;
+  }
+
+  /* line 1074, ../../sass/base/general.scss */
+  h1, .h1 {
+    font-size: 50px;
+  }
+
+  /* line 1078, ../../sass/base/general.scss */
+  h3, .h3 {
+    font-size: 20px;
+  }
+
+  /* line 1081, ../../sass/base/general.scss */
+  #gallery1 {
+    display: none;
+  }
+
+  /* line 1083, ../../sass/base/general.scss */
+  .button_down {
+    display: none;
+  }
+}
+/* Mobile Landscape */
+/* Mobile Portrait */
+@media screen and (max-width: 600px) {
+  /* line 1101, ../../sass/base/general.scss */
+  .morph-button-modal.open .morph-content {
+    top: 0% !important;
+    left: 0% !important;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    -webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+    transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* line 1114, ../../sass/base/general.scss */
+  .morph-button-fixed,
+  .morph-button-fixed .morph-content {
+    width: 200px;
+    height: 80px;
+  }
+
+  /* line 1120, ../../sass/base/general.scss */
+  .morph-button-fixed > button {
+    font-size: 75%;
+  }
+
+  /* line 1124, ../../sass/base/general.scss */
+  .morph-button-sidebar > button {
+    font-size: 1.6em;
+  }
+
+  /* line 1128, ../../sass/base/general.scss */
+  .morph-button-inflow .morph-content .morph-clone {
+    font-size: 0.9em;
+  }
+
+  /* line 1132, ../../sass/base/general.scss */
+  .morph-button-modal-4,
+  .morph-button-modal-4 .morph-content {
+    width: 220px;
+    height: 120px;
+  }
+
+  /* line 1138, ../../sass/base/general.scss */
+  .morph-button-modal-4 > button {
+    font-size: 100%;
+    line-height: 50px;
+  }
+
+  /* line 1143, ../../sass/base/general.scss */
+  .morph-button-modal-4 > button span {
+    display: block;
+  }
+
+  /* line 1147, ../../sass/base/general.scss */
+  .morph-button-modal-4 .morph-clone {
+    right: 83px;
+    bottom: 26px;
+  }
+
+  /* line 1152, ../../sass/base/general.scss */
+  .morph-button-sidebar,
+  .morph-button-sidebar .morph-content {
+    width: 100% !important;
+    height: 60px !important;
+  }
+
+  /* line 1158, ../../sass/base/general.scss */
+  .morph-button-sidebar {
+    bottom: 0px;
+    left: 0px;
+  }
+
+  /* line 1163, ../../sass/base/general.scss */
+  .morph-button-sidebar.open .morph-content {
+    height: 100% !important;
+  }
+}
+@media (max-width: 1199px) {
+  /* line 1169, ../../sass/base/general.scss */
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1176, ../../sass/base/general.scss */
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+
+  /* line 1182, ../../sass/base/general.scss */
+  ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  /* line 1188, ../../sass/base/general.scss */
+  ul.banner-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+}
+/* line 1193, ../../sass/base/general.scss */
+footer {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+/* line 1198, ../../sass/base/general.scss */
+p.copyright {
+  margin: 15px 0 0;
+}
+
+@media (max-width: 767px) {
+  /* line 1203, ../../sass/base/general.scss */
+  .intro-message {
+    padding-bottom: 15%;
+  }
+
+  /* line 1207, ../../sass/base/general.scss */
+  .intro-message > h1 {
+    font-size: 3em;
+  }
+
+  /* line 1211, ../../sass/base/general.scss */
+  ul.intro-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  /* line 1217, ../../sass/base/general.scss */
+  ul.intro-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* line 1221, ../../sass/base/general.scss */
+  .intro-divider {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 770px) {
+  /* line 1228, ../../sass/base/general.scss */
+  .mockup-left {
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  /* line 1237, ../../sass/base/general.scss */
+  .joiner {
+    display: block;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* line 1243, ../../sass/base/general.scss */
+  .mockup-content > span:nth-last-child(2) {
+    width: calc(100% - 210px);
+  }
+}
+@media screen and (max-width: 25em) {
+  /* line 1250, ../../sass/base/general.scss */
+  .codrops-icon span {
+    display: none;
+  }
+}
