@@ -40,7 +40,11 @@ $(document).ready(function() {
 			autoPlay: 3000,
 			items : 3,
 			itemsDesktop : [1199,3],
-			itemsDesktopSmall : [979,3]
+			itemsTablet:	[768,2],
+			itemsDesktopSmall : [479,1],
+			navigation : true,
+			navigationText : false,
+			pagination : false
 		});
 
 		// OwlCarousel N2

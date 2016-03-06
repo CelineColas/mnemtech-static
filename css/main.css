@@ -19854,7 +19854,7 @@ img.mfp-img {
   padding-top: 0;
 }
 
-/* line 39, ../sass/main.sass */
+/* line 1, ../sass/custom/_homepage.sass */
 .overlay {
   width: 100%;
   height: 100%;
@@ -19862,4 +19862,34 @@ img.mfp-img {
   background: rgba(0, 0, 0, 0.7);
   top: 0;
   left: 0;
+}
+/* line 8, ../sass/custom/_homepage.sass */
+.overlay .container {
+  margin-top: 5%;
+}
+/* line 10, ../sass/custom/_homepage.sass */
+.overlay .button_arrow {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  left: 0;
+}
+/* line 15, ../sass/custom/_homepage.sass */
+.overlay .options {
+  margin-top: 50px;
+  text-align: left;
+}
+/* line 18, ../sass/custom/_homepage.sass */
+.overlay .options.first {
+  padding-right: 50px;
+}
+/* line 20, ../sass/custom/_homepage.sass */
+.overlay .options.second {
+  padding-left: 50px;
+}
+
+/* line 22, ../sass/custom/_homepage.sass */
+#downloadlink {
+  background: url(../img/intro/desktop-2.jpg) no-repeat center center;
+  padding: 75px 0;
 }
