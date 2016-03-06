@@ -69,6 +69,14 @@ $(document).ready(function() {
 			}
 		});
 
+		$(window).scroll(function(){
+			if($('.stuckMenu').hasClass('isStuck')){
+				$('.bg-header').addClass('margin-top');
+			} else {
+				return false;
+			};
+		});
+
 
 
 });

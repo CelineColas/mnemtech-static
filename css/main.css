@@ -19893,3 +19893,31 @@ img.mfp-img {
   background: url(../img/intro/desktop-2.jpg) no-repeat center center;
   padding: 75px 0;
 }
+
+/* line 27, ../sass/custom/_homepage.sass */
+.margin-top {
+  margin-top: 62px;
+}
+
+/* line 4, ../sass/custom/_classes.sass */
+.avatar-header {
+  border-radius: 75px;
+  height: 75px;
+  width: 75px;
+}
+
+/* line 8, ../sass/custom/_classes.sass */
+.ascensor {
+  right: 0;
+}
+
+/* line 10, ../sass/custom/_classes.sass */
+.bg-header {
+  background: url("../img/intro/desktop-3.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 13, ../sass/custom/_classes.sass */
+.overlays {
+  background: rgba(0, 0, 0, 0.6);
+}
