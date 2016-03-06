@@ -89,7 +89,7 @@
 
           <div class="col-sm-4">
             <div class="ascensor">
-            <img src="http://placehold.it/300x500" alt="" class="ascensor"/>
+            <img src="http://placehold.it/300x500" alt="" class="ascensor-sub"/>
             </div>
           </div>
         </div>

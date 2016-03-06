@@ -48,10 +48,13 @@
 <script src="js/stickUp.min.js"></script>
 <script type="text/javascript">
 jQuery(function($) {
-$(document).ready( function() {
-  $('.navbar-default').stickUp();
-  //$('.ascensor').stickUp();
-});
+  $(document).ready( function() {
+    if (window.location.pathname === '/mnemtech-static/index.php') {
+      $('.navbar-default').stickUp();
+    } else {
+      $('.ascensor-sub').stickUp();
+    }
+  });
 });
 
 </script>

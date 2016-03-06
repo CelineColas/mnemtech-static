@@ -1,6 +1,6 @@
 <?php include 'includes/head.php' ?>
 
-<body id="class">
+<body id="classes">
 
 	<!-- Preloader -->
 	<div id="preloader">
@@ -9,12 +9,12 @@
 
   <!-- NavBar-->
 	<?php include 'includes/navbar.php' ?>
-	<!-- FullScreen  abcen1 -->
+	<!-- BG HEADER -->
     <header class="bg-header">
       <div class="overlays">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+					<div class="col-sm-12">
             <h2 class="text-center">Titre du cours</h2>
             <img src="http://placehold.it/150x150" alt="" class="avatar-header"/>
             <ul>
@@ -75,7 +75,7 @@
 
           <div class="col-sm-4">
             <div class="ascensor">
-            <img src="http://placehold.it/300x500" alt="" class="ascensor"/>
+            <img src="http://placehold.it/300x500" alt="" class="ascensor-sub"/>
             </div>
           </div>
         </div>
