@@ -1,6 +1,6 @@
 <?php include 'includes/head.php' ?>
 
-<body id="class">
+<body id="classes">
 
 	<!-- Preloader -->
 	<div id="preloader">
@@ -9,22 +9,36 @@
 
   <!-- NavBar-->
 	<?php include 'includes/navbar.php' ?>
-	<!-- FullScreen  abcen1 -->
+	<!-- BG HEADER -->
     <header class="bg-header">
       <div class="overlays">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h2 class="text-center">Titre du cours</h2>
-            <img src="http://placehold.it/150x150" alt="" class="avatar-header"/>
-            <ul>
-              <li>Par <a href="#">Chuck Norris</a></li>
-              <span>|</span>
-              <li><a href="#">Arithmétique</a></li>
-            </ul>
+            <h2 class="text-center">Trouver un cours</h2>
+						<p class="lead text-center">
+							Parmis nos 150 cours dans 50 catégories
+						</p>
           </div>
         </div>
       </div>
+
+				<form class="filers" action="#" method="post">
+					<div class="container">
+						<div class="row">
+							<select class="year form-control" name="year">
+								<option value="Année 1">Année 1</option>
+								<option value="Année 2">Année 2</option>
+								<option value="Année 3">Année 3</option>
+								<option value="Année 4">Année 4</option>
+								<option value="Année 5">Année 5</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-control col-sm-4">
+
+					</div>
+				</form>
       </div>
     </header>
 

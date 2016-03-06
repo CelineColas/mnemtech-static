@@ -50,7 +50,7 @@
 jQuery(function($) {
 $(document).ready( function() {
   $('.navbar-default').stickUp();
-  $('.ascensor').stickUp();
+  //$('.ascensor').stickUp();
 });
 });
 

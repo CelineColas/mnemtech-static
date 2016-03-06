@@ -19899,25 +19899,62 @@ img.mfp-img {
   margin-top: 62px;
 }
 
-/* line 4, ../sass/custom/_classes.sass */
+/* line 6, ../sass/custom/_classes.sass */
+#classes .overlays {
+  padding: 100px 0 0;
+}
+/* line 8, ../sass/custom/_classes.sass */
+#classes .overlays .lead {
+  color: #FFF;
+  margin-bottom: 90px;
+}
+/* line 11, ../sass/custom/_classes.sass */
+#classes .overlays h2 {
+  margin-bottom: 10px;
+}
+/* line 13, ../sass/custom/_classes.sass */
+#classes .bg-header {
+  padding: 0;
+}
+
+/* line 20, ../sass/custom/_classes.sass */
 .avatar-header {
   border-radius: 75px;
   height: 75px;
   width: 75px;
 }
 
-/* line 8, ../sass/custom/_classes.sass */
+/* line 24, ../sass/custom/_classes.sass */
 .ascensor {
   right: 0;
 }
 
-/* line 10, ../sass/custom/_classes.sass */
+/* line 26, ../sass/custom/_classes.sass */
 .bg-header {
   background: url("../img/intro/desktop-3.jpg") no-repeat center center;
   background-size: cover;
 }
-
-/* line 13, ../sass/custom/_classes.sass */
-.overlays {
+/* line 29, ../sass/custom/_classes.sass */
+.bg-header h2 {
+  color: #FFF;
+  margin-bottom: 50px;
+}
+/* line 32, ../sass/custom/_classes.sass */
+.bg-header ul {
+  padding-left: 5px;
+}
+/* line 34, ../sass/custom/_classes.sass */
+.bg-header ul, .bg-header li {
+  display: inline-block;
+  color: #FFF;
+}
+/* line 37, ../sass/custom/_classes.sass */
+.bg-header ul a, .bg-header li a {
+  color: #FFF;
+  text-decoration: underline;
+}
+/* line 40, ../sass/custom/_classes.sass */
+.bg-header .overlays {
   background: rgba(0, 0, 0, 0.6);
+  padding: 100px 0 30px;
 }
